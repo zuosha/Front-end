@@ -13,6 +13,14 @@ body{
 #header{
 	height: 220px;
 	margin-bottom: 5px;
+	position: relative;
+}
+#icon{
+	position: absolute;
+	bottom: 10px;
+	right: 15px;
+	width: 130px;
+	height: 30px;
 }
 
 #nav{
@@ -44,7 +52,7 @@ a:active{
 
 #main{
 	background-color: #000;
-	height: 2050px;
+	/*height: 2050px;*/
 }
 #aside{
 	float: left;
@@ -57,7 +65,7 @@ a:active{
 #content{
 	float: right;
 	width: 595px;
-	height: 2050px;
+	/*height: 2050px;*/
 	margin-bottom: 5px;
 	background-color: #cff;
 }
@@ -65,6 +73,17 @@ a:active{
 	margin: 10px;
 	width: 570px;
 	clear: both;
+}
+.subtext{
+	float: right;
+	width: 60%;
+	margin: 5px;
+}
+.subtext h2{
+	margin: 5px;
+}
+.subtext p{
+	font: 16px/2em;
 }
 .subcon img{
 	margin: 5px;
